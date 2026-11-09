@@ -1,0 +1,52 @@
+/* Paleta de la referencia Delfines: azul 221958, dorado FAB802 y blanco. */
+:root{--navy:#221958;--deep:#171038;--yellow:#fab802;--brand-blue:#221958;--brand-gold:#fab802}
+.header{background:#221958;color:#fff}
+.hero,.page-hero{background:radial-gradient(ellipse at 80% 20%,#3b2c76 0%,#221958 60%,#171038 100%);color:#fff}
+body.readable .hero h1,body.readable .page-hero h1{color:#fff}
+body.readable .hero p,body.readable .page-hero p,.hero-secondary,.hero-amenities span,.hero-amenities span:after,.header nav a{color:#fff}
+.contact-section,footer{background:#221958;color:#fff}
+body.readable .contact-section p,body.readable .contact-section a,.contact-section h2,.contact-details,.contact-details>span,footer p,footer a,.footer-signature,.footer-signature>span,.footer-bottom{color:#fff}
+.contact-details{border-color:#ffffff40}
+.button.yellow,.reservation-floating,.hero-medallion,.welcome-seal{background:#fab802;color:#221958}
+.button.yellow:hover,.reservation-floating:hover{background:#fab802;box-shadow:0 8px 28px #fab80240}
+.hero-medallion text{fill:#221958}
+.hero-medallion path{stroke:#221958}
+.hero-inset{color:#221958}
+.hero-inset span{color:#221958}
+::selection{background:#fab802;color:#221958}
+
+/* El emblema cuadrado se muestra completo. */
+.brand,.footer-brand{display:block;flex-shrink:0}
+.header .brand img,footer .footer-brand img{width:74px;height:74px;object-fit:contain;border-radius:6px}
+.header .header-cta{white-space:nowrap}
+@media(max-width:700px){.header .brand img,footer .footer-brand img{width:56px;height:56px}.nav-wrap{gap:12px}.header .button{white-space:nowrap;font-size:11px;padding-inline:12px;gap:12px}}
+
+.hero-composition{min-width:0}
+
+/* Blancos luminosos y degradados construidos sobre el azul de la marca. */
+body{background:#fff}
+.header{background:linear-gradient(105deg,#221958 5%,#30245f 65%,#171038);border-bottom:1px solid #ffffff24}
+.hero,.page-hero{background:radial-gradient(ellipse at 100% 5%,#58469a55,transparent 58%),linear-gradient(120deg,#161031 0%,#221958 52%,#44337e 100%)}
+.hero:after{opacity:.35}
+.hero .location{background:linear-gradient(110deg,#ffffff1f,#ffffff08);border-color:#ffffff40}
+.hero-photo-frame{background:linear-gradient(145deg,#ffffff30,#ffffff06);box-shadow:0 28px 80px #16103130}
+.hero-photo-gradient{background:linear-gradient(0deg,#161031d9,transparent 65%)}
+.booking{background:linear-gradient(125deg,#fff 55%,#f2efff);border:1px solid #e4ddff;box-shadow:0 18px 55px #2219580c}
+.welcome,.gallery-section,.blog{background:#fff}
+.rooms{background:linear-gradient(155deg,#faf9ff 0%,#fff 55%,#eeeaff 100%)}
+.room-info{background:linear-gradient(135deg,#fff,#f7f5ff);border:1px solid #e7e1ff;box-shadow:0 20px 60px #2219580b}
+.service-icon{background:linear-gradient(140deg,#fff,#eeeaff);border-color:#e2daff;color:#221958}
+.service-list article{border-color:#e6e0ff}
+.gallery-tile{box-shadow:0 15px 45px #22195810}
+.contact-section{background:linear-gradient(120deg,#fff 25%,#f5f2ff 75%,#ebe5ff);color:#221958;border-top:1px solid #e5ddff}
+body.readable .contact-section p,body.readable .contact-section a,.contact-section h2,.contact-details,.contact-details>span{color:#221958}
+.contact-details{border-color:#22195825}
+.contact-section .button{background:linear-gradient(110deg,#221958,#3e3079);color:#fff!important;box-shadow:0 12px 30px #22195820}
+footer{background:radial-gradient(ellipse at 100% 100%,#483788 0%,transparent 60%),linear-gradient(130deg,#221958,#140e30);color:#fff}
+.footer-signature{background:linear-gradient(110deg,#fff,#e9e1ff);background-clip:text;-webkit-background-clip:text;color:transparent}
+.button.yellow,.reservation-floating{background:linear-gradient(115deg,#ffd160,#fab802 65%);border:1px solid #ffffff35}
+.button.navy{background:linear-gradient(115deg,#221958,#3c2e76);color:#fff}
+.room-plan-card,.plan-card,.article-card{background:linear-gradient(145deg,#fff,#faf9ff)}
+@media(max-width:680px){.hero,.page-hero{background:radial-gradient(ellipse at 100% 30%,#58469a44,transparent 60%),linear-gradient(155deg,#1a133f,#221958 55%,#332662)}.contact-section{background:linear-gradient(155deg,#fff,#f1edff)}}
+body.readable .rooms .section-heading h2{color:#221958}body.readable .rooms .section-heading>p{color:#514875}.rooms .eyebrow{color:#806000}.contact-section p,.contact-section .contact-details>a:not(.button),.contact-section .contact-details>span{color:#221958!important}.rooms:before{color:#22195808}
+body.readable .room-info h3{color:#221958}body.readable .room-info>p{color:#514875}.room-info .room-label,.room-info .room-perks{color:#514875}

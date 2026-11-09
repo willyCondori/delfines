@@ -1,0 +1,2 @@
+# Procesamiento de imágenes cargadas desde el administrador.
+Pillow>=10

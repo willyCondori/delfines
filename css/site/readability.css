@@ -1,0 +1,92 @@
+/* Texto claro y con suficiente contraste en todas las páginas. */
+body.readable{font-size:16px;line-height:1.75;--muted:#585266}
+body.readable p{color:#585266}
+body.readable .hero p,body.readable .page-hero p{color:#f4f3ff}
+body.readable .hero-description{font-size:17px;line-height:1.8;max-width:420px}
+body.readable .location{font-size:13px;color:#f4f3ff}
+body.readable .hero-secondary{font-size:14px}
+body.readable .hero-amenities span{font-size:13px;color:#f4f3ff}
+body.readable .hero-amenities span:after{font-size:10px;top:25px;color:#f4f3ff}
+body.readable .hero-amenities{max-width:465px;padding-bottom:15px}
+body.readable .hero-amenities svg{width:17px;height:17px}
+body.readable .hero-bottom,body.readable .hero-photo-picker button{font-size:12px;color:#f4f3ff}
+body.readable .header nav a{font-size:14px;font-weight:500;padding:10px 13px}
+body.readable .button,body.readable .button.small{font-size:14px;font-weight:600}
+body.readable .eyebrow,body.readable .category,body.readable .page-category{font-size:12px;font-weight:500;color:#221958}
+body.readable .rooms .eyebrow,body.readable .inner-cta .eyebrow,body.readable .contact-section .eyebrow{color:#fab802}
+body.readable .page-hero .page-category{color:#fab802}
+body.readable .page-intro{font-size:16px;line-height:1.8;max-width:540px}
+body.readable .breadcrumb{font-size:12px;color:#f4f3ff}
+body.readable .section-heading>p,body.readable .welcome-copy>p:not(.eyebrow),body.readable .room-info>p,body.readable .service-list p,body.readable .split-story p:not(.eyebrow),body.readable .service-stories p,body.readable .values-grid p,body.readable .journal-feature p:not(.eyebrow),body.readable .journal-card p:not(.category){font-size:15px;line-height:1.8}
+body.readable .room-info>p,body.readable .rooms .section-heading>p{color:#f4f3ff}
+body.readable .room-label,body.readable .room-perks,body.readable .photo-caption,body.readable .service-list article div>span,body.readable .gallery-hint,body.readable .article-link,body.readable .text-link{font-size:13px}
+body.readable .service-list article div>span{color:#65596d}
+body.readable .gallery-tile>span,body.readable .masonry-photo>span{font-size:14px;font-weight:500;color:white}
+body.readable .city-banner p,body.readable .city-banner .button{font-size:14px;color:white}
+body.readable .city-banner .button{color:var(--navy)}
+body.readable .booking-heading p,body.readable .booking-note,body.readable .field label{font-size:12px;color:#63596f}
+body.readable .field input,body.readable .field select,body.readable .booking .button{font-size:14px}
+body.readable .booking-heading h2{font-family:var(--sans);font-weight:600;font-size:20px;line-height:1.3}
+body.readable .small-print,body.readable .plans-pricing-note,body.readable .service-footnote,body.readable .source-note{font-size:12px;line-height:1.8;color:#63596f}
+body.readable .plan-name-price h3,body.readable .tour-content h3,body.readable .contact-form-panel h3,body.readable .journal-card h3{font-family:var(--sans);font-weight:500;font-size:30px;line-height:1.2;letter-spacing:-.02em}
+body.readable .plan-card-master .plan-name-price h3{font-size:34px}
+body.readable .plan-card-description,body.readable .tour-content>p:not(.eyebrow):not(.small-print),body.readable .amenity-grid p{font-size:14px;line-height:1.8;color:#221958}
+body.readable .plan-card-master .plan-card-description{color:#f4f3ff}
+body.readable .plan-card-facts dt,body.readable .plan-price>span,body.readable .plan-price>small,body.readable .plan-photo-type{font-size:12px;color:#221958}
+body.readable .plan-photo-type{color:#fff;background:#22195866}
+body.readable .plan-card-facts dd,body.readable .plan-choose-link,body.readable .plan-card-actions .button,body.readable .tour-tabs button,body.readable .detail-checks{font-size:14px;color:#221958}
+body.readable .plan-card-actions .button{color:white}
+body.readable .plan-card-master .plan-card-actions .button{color:var(--navy)}
+body.readable .plan-card-master .plan-card-facts dd,body.readable .plan-card-master .plan-choose-link,body.readable .plan-card-master .plan-price>span,body.readable .plan-card-master .plan-price>small,body.readable .plan-card-master .plan-card-facts dt{color:#f4f3ff}
+body.readable .plan-card-actions{flex-wrap:wrap;gap:12px}
+body.readable .plan-choose-link{font-size:13px}
+body.readable .tour-tabs button.selected{color:white}
+body.readable .amenity-hours,body.readable .time-pill,body.readable .about-triptych figcaption,body.readable .filter-buttons button,body.readable .gallery-filter-bar>p{font-size:13px;color:#221958}
+body.readable .filter-buttons button.selected{color:white}
+body.readable .faq-list summary{font-size:16px;line-height:1.6}
+body.readable .faq-list details>div,body.readable .article-body section p{font-size:16px;line-height:1.85;color:#585066}
+body.readable .contact-channel>span,body.readable .contact-fields label,body.readable .contact-form-panel .small-print{font-size:12px;color:#221958}
+body.readable .contact-fields input,body.readable .contact-fields select,body.readable .contact-fields textarea{font-size:16px;color:#221958}
+body.readable .contact-fields input::placeholder,body.readable .contact-fields textarea::placeholder{font-size:14px;color:#786681}
+body.readable .contact-channel>p,body.readable .contact-section p:not(.eyebrow),body.readable .contact-details>span,body.readable .contact-details>a:not(.contact-phone):not(.button),body.readable .location-story p:not(.eyebrow){font-size:15px}
+body.readable .contact-section p:not(.eyebrow),body.readable .contact-details>span,body.readable .contact-details>a:not(.contact-phone):not(.button){color:#fab802}
+body.readable .location-story p:not(.eyebrow){color:#f4f3ff}
+body.readable .footer-main p,body.readable .footer-main>a:last-child,body.readable .footer-links a,body.readable .footer-bottom{font-size:12px;color:#f4f3ff}
+body.readable .footer-signature>span{font-size:14px;color:#f4f3ff}
+
+/* Modales: títulos de trazo firme y texto mínimo de 12–14 px. */
+body.readable .plan-modal-body>h2,body.readable .booking-dialog h2,body.readable .contact-dialog h2{font-family:var(--sans);font-size:30px;font-weight:600;line-height:1.17;letter-spacing:-.02em;max-width:100%}
+body.readable .plan-modal-body{padding:25px 28px 22px}
+body.readable .modal-step,body.readable .modal-kicker,body.readable .plan-modal-body>.modal-step{font-size:12px;color:#221958;letter-spacing:0}
+body.readable .plan-media-caption .modal-kicker,body.readable .booking-editorial .modal-kicker{font-size:12px;color:#fab802}
+body.readable .plan-modal-body>p#plan-modal-description,body.readable .plan-inclusions ul,body.readable .plan-modal-facts dd{font-size:14px;line-height:1.7;color:#221958}
+body.readable .plan-modal-facts dt{font-size:12px;color:#221958}
+body.readable .plan-modal-body section h3,body.readable .plan-amenities summary{font-size:14px;font-weight:600;color:#221958}
+body.readable .plan-inclusions ul{gap:5px}
+body.readable .plan-inclusions li:before{font-size:13px;color:#fab802}
+body.readable .plan-amenities li{font-size:12px;color:#221958}
+body.readable .plan-amenities summary>span:first-child{font-size:12px;color:#221958;font-weight:400}
+body.readable .plan-schedule span,body.readable .plan-modal-note,body.readable .plan-original-link{font-size:12px;color:#221958;line-height:1.6}
+body.readable .plan-schedule strong{font-size:16px;color:#221958}
+body.readable .plan-modal-body>.button{font-size:14px;min-height:45px}
+body.readable .plan-media-caption .plan-modal-price,body.readable .plan-media-caption .plan-modal-price>span,body.readable .plan-photo-tip{font-size:12px;color:#f4f3ff}
+body.readable .plan-photo-count{font-size:12px;background:#221958ed}
+body.readable .booking-intro,body.readable .trip-summary dd,body.readable .contact-dialog dd{font-size:14px;line-height:1.7;color:#221958}
+body.readable .trip-summary dt,body.readable .edit-trip,body.readable .reservation-note p,body.readable .booking-dialog .mail-note,body.readable .booking-dialog .dialog-phone,body.readable .contact-dialog dt,body.readable .contact-dialog>p,body.readable .contact-dialog .mail-note{font-size:12px;line-height:1.7;color:#221958}
+body.readable .booking-dialog .button,body.readable .contact-dialog .button{font-size:14px}
+body.readable .gallery-toolbar h2{font-family:var(--sans);font-weight:500;font-size:24px;line-height:1.25}
+body.readable .gallery-toolbar .modal-kicker{font-size:12px;color:#fab802}
+body.readable .lightbox figcaption{font-size:15px;color:#f4f3ff}
+body.readable .gallery-count{font-size:14px;color:var(--yellow)}
+body.readable .keyboard-tip{font-size:12px;color:#c7c2e3}
+@media(max-width:1200px){body.readable .header nav a{font-size:13px;padding-inline:10px}.readable .hero-actions{gap:20px}}
+@media(max-width:850px){body.readable .header nav a{font-size:16px;padding:12px 17px}body.readable .hero h1{font-size:64px}body.readable .hero .location{font-size:11px}body.readable .hero-amenities{max-width:360px;gap:15px 0}body.readable .hero-amenities span{font-size:12px}body.readable .hero-amenities span:after{font-size:9px}}
+@media(max-width:680px){body.readable .plan-modal-body{padding:23px}body.readable .plan-modal-body>h2{font-size:29px}body.readable .plan-modal-body>p#plan-modal-description,body.readable .plan-inclusions ul,body.readable .plan-modal-facts dd{font-size:14px}body.readable .plan-media-caption .modal-kicker{font-size:10px;max-width:125px}body.readable .plan-media-caption .plan-modal-price,body.readable .plan-media-caption .plan-modal-price>span{font-size:11px}body.readable .plan-media-caption{padding-block:12px 16px}body.readable .plan-modal-facts{grid-template-columns:1fr 1.2fr;gap:14px}body.readable .plan-schedule>div{gap:9px}body.readable .plan-photo-count{font-size:11px}}
+@media(max-width:580px){body.readable{font-size:16px}body.readable .hero h1{font-size:clamp(49px,13.4vw,70px)}body.readable .hero-description{font-size:16px;max-width:310px}body.readable .hero .location{font-size:11px;line-height:1.6}body.readable .hero-actions{gap:17px;flex-wrap:wrap}body.readable .hero-actions .button{font-size:13px}body.readable .hero-secondary{font-size:13px}body.readable .hero-amenities{max-width:none;padding-bottom:15px}body.readable .hero-amenities span{font-size:11px;padding-inline:10px}body.readable .hero-amenities span:first-child{padding-left:0}body.readable .hero-amenities span:after{font-size:8px;left:10px;top:25px}body.readable .hero-amenities span:first-child:after{left:0}body.readable .hero-bottom{font-size:11px;line-height:1.6;gap:20px}body.readable .hero-bottom a{font-size:11px}body.readable .hero-photo-picker button{font-size:12px}body.readable .button.small{font-size:12px!important}body.readable .eyebrow{font-size:12px}body.readable .page-intro{font-size:15px}body.readable .booking-heading p{font-size:12px}body.readable .field input,body.readable .field select{font-size:16px}body.readable .booking-note{font-size:12px}body.readable .plan-name-price h3{font-size:27px}body.readable .plan-card-master .plan-name-price h3{font-size:29px}body.readable .plan-card-description{font-size:15px}body.readable .plan-card-facts dd{font-size:14px}body.readable .plan-card-actions .button{font-size:14px}body.readable .amenity-grid{grid-template-columns:1fr}body.readable .amenity-grid p{min-height:0;font-size:15px}body.readable .amenity-hours{font-size:13px}body.readable .faq-list summary{font-size:15px}body.readable .faq-list details>div{font-size:15px}body.readable .filter-buttons button{font-size:13px;padding:9px 14px}body.readable .gallery-tile>span,body.readable .masonry-photo>span{font-size:12px}body.readable .contact-channel>a{font-size:16px}body.readable .footer-signature>span{font-size:13px}body.readable .footer-links a{font-size:13px}body.readable .footer-bottom{font-size:11px;flex-wrap:wrap}body.readable .booking-dialog h2{font-size:29px}body.readable .gallery-toolbar h2{font-size:21px}body.readable .lightbox figcaption{font-size:14px}body.readable .keyboard-tip{font-size:10px}body.readable .selected-plan strong{font-size:13px}body.readable .selected-plan span,body.readable .clear-plan{font-size:11px}}
+
+body.readable .plan-card-master .plan-price{color:white}
+body.readable .contact-section .eyebrow{color:#fab802}
+body.readable .booking-editorial p{color:#f4f3ff}
+body.readable .selected-plan span{font-size:12px;color:#221958}
+body.readable .selected-plan strong{font-size:14px}
+body.readable .clear-plan{font-size:13px;color:#221958}
